@@ -1,5 +1,5 @@
 # 📄 REPORTE DE PROYECTO FINAL INTEGRADOR - PYTHON QUEST
-**Estudiante:** Ernesto  
+**Estudiante:** Jeffer  
 **Proyecto:** Simulador de Liga Deportiva en Python  
 **Estado:** ✅ FINALIZADO  
 **Fecha de finalización:** 2026  

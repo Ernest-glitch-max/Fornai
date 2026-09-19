@@ -8,7 +8,7 @@ def calcular_ataque(ataques, daño_por_ataque):
     return daño_total
 
 
-def recibir_danio(vida, daño):
+def recibir_daño(vida, daño):
     vida_actual = vida - daño
 
     if vida_actual < 0:
@@ -37,7 +37,7 @@ print()
 print("El jugador enemigo recibe el ataque.")
 
 vida_enemigo = 300
-vida_enemigo = recibir_danio(vida_enemigo, daño_total)
+vida_enemigo = recibir_daño(vida_enemigo, daño_total)
 
 print(f"Vida del enemigo después del ataque: {vida_enemigo}")
 print()
@@ -45,7 +45,7 @@ print()
 print("El enemigo contraataca.")
 daño_recibido = 80
 
-vida_jugador = recibir_danio(vida_jugador, daño_recibido)
+vida_jugador = recibir_daño(vida_jugador, daño_recibido)
 
 print(f"Daño recibido por el jugador: {daño_recibido}")
 print(f"Vida actual del jugador: {vida_jugador}")
